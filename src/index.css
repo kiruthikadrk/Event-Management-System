@@ -1,0 +1,314 @@
+/* Reset defaults */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  animation: slideBackground 40s infinite;
+}
+
+@keyframes slideBackground {
+  0% {
+    background-image: url('https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?q=80&w=1170&auto=format&fit=crop');
+  }
+  10% {
+    background-image: url('https://mysticstudios.in/wp-content/uploads/2024/11/Chennai-tamil-brahmin-iyer-wedding-photography-padmaram-mystic31.jpg');
+  }
+  20% {
+    background-image: url('https://cdn0.weddingwire.in/article/8660/3_2/1280/jpg/120668-engagement-songs-vowsoflove.webp');
+  }
+  30% {
+    background-image: url('https://icorporateevents.in/wp-content/uploads/2025/03/Promote-Special-Events-in-goajpeg-1.jpeg');
+  }
+  40% {
+    background-image: url('https://media.weddingz.in/images/98688545ab523862790baf9b354ac987/Winter-Destination-Wedding-in-India.jpg');
+  }
+  50% {
+    background-image: url('https://s3.ap-south-1.amazonaws.com/studyinfocentre.com/media/public/Content/top-10-happening-engineering-college-fests-in-india/fest.jpg');
+  }
+  60% {
+    background-image: url('https://www.partysharty.com/img/4.jpg');
+  }
+  70% {
+    background-image: url('https://youthincmag.com/wp-content/uploads/2023/02/FB_IMG_1675170342527-1024x683.jpg');
+  }
+  80% {
+    background-image: url('https://mysticstudios.in/wp-content/uploads/2024/11/grand-engagement-erode-44.jpg');
+  }
+  90% {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzNut3KBc2e9pO5nCKKd-4lwZbJd80ovm0OA&s');
+  }
+  100% {
+    background-image: url('https://mysticstudios.in/wp-content/uploads/2024/11/grand-engagement-erode-51.jpg');
+  }
+}
+
+
+
+
+.center-container h1,
+.center-container p {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.3); /* Optional: faint background for readability */
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ccc;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Center container */
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 60px); /* subtract navbar height */
+  text-align: center;
+  padding: 20px;
+  flex-direction: column;
+}
+
+/* Heading */
+.center-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Paragraph */
+.center-container p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  font-style: italic;
+}
+
+/* Shared form styling */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.auth-box {
+  background-color: white;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-box h2 {
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Input fields */
+.auth-box input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+/* Submit button */
+.auth-box button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.auth-box button:hover {
+  background-color: #0056b3;
+}
+/* Dashboard styles */
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('https://images.unsplash.com/photo-1653821355736-0c2598d0a63e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.dashboard-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 30px;
+  border-radius: 12px;
+  text-align: center;
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.7);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(5px);
+}
+
+.dashboard-search {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.dashboard-search input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.dashboard-search button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #5c8df6;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-search button:hover {
+  background-color: #3f6ee3;
+}
+
+.event-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.event-card {
+  font-size: 1rem;
+  margin: 10px;
+  padding: 12px 18px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-left: 5px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  width: auto;
+  max-width: 300px;
+  min-width: 180px;
+  text-align: center;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.event-card:hover {
+  transform: translateY(-5px);
+  background-color: #f1f9ff;
+  border-left-color: #0056b3;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.no-results {
+  color: #888;
+  font-style: italic;
+}
+
+/* BookingForm Styles */
+.booking-form-container {
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background-color: #f8f8f8;
+}
+
+.booking-form-card {
+background-color: #fff;
+padding: 30px 40px;
+border-radius: 12px;
+box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1);
+max-width: 500px;
+width: 100%;
+}
+
+.booking-form-card h2 {
+text-align: center;
+margin-bottom: 20px;
+font-size: 24px;
+font-weight: 600;
+color: #333;
+}
+
+.booking-form-card input {
+width: 100%;
+padding: 12px 14px;
+margin: 8px 0;
+font-size: 14px;
+border: 1px solid #ccc;
+border-radius: 6px;
+outline: none;
+transition: border-color 0.3s;
+}
+
+.booking-form-card input:focus {
+border-color: #007bff;
+}
+
+.booking-form-card button {
+width: 100%;
+padding: 12px;
+background-color: #007bff;
+border: none;
+color: white;
+font-size: 16px;
+font-weight: bold;
+border-radius: 6px;
+cursor: pointer;
+margin-top: 10px;
+}
+
+.booking-form-card button:hover {
+background-color: #0056b3;
+}
